@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/fishing-attack/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/fishing-attack' : ''
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/mini-game/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/mini-game' : ''
 };
 
 export default nextConfig;
